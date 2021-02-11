@@ -2,7 +2,7 @@
 # Build: cmake -D USE_PRINTF=ON ..
 cmake_minimum_required(VERSION 3.14)
 
-set(PROJECT "CPPTemplate")
+set(PROJECT "CppTemplate")
 
 project("${PROJECT}_Project" VERSION 1.2.3 LANGUAGES CXX)
 
