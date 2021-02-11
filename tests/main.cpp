@@ -43,3 +43,8 @@ TEST_CASE( "Test sqr", "[sqr]" ) {
     int x = square_values(5);
     REQUIRE(x == 25);
 }  
+
+TEST_CASE( "Test print hello world", "[hello world]" ) {
+    std::string x = print_hello_world();
+    REQUIRE(x == "Hello World");
+} 
